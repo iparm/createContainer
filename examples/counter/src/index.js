@@ -1,10 +1,10 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
 
-import { Button } from "./Button"
-import { Title } from "./Title"
+import { Button } from "./Button";
+import { Title } from "./Title";
 
-import "./styles.css"
+import "./styles.css";
 
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
       <Title />
       <Button />
     </div>
-  )
-}
+  );
+};
 
-const rootElement = document.getElementById("root")
-ReactDOM.render(<App />, rootElement)
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

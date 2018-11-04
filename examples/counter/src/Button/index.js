@@ -1,2 +1,2 @@
-import { ButtonContainer as Button } from "./ButtonContainer"
-export { Button }
+import { ButtonContainer as Button } from "./ButtonContainer";
+export { Button };
